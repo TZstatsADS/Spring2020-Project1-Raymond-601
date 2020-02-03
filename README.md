@@ -2,7 +2,7 @@
 ## Fall 2019
 ## Project 1: A "data story" on the songs of our times
 
-<img src="figs/Metal.jpeg" width="500">
+<img src="figs/Metal.jpg" width="500">
 
 ### [Project Description](doc/)
 This is the first and only *individual* (as opposed to *team*) this semester. 
