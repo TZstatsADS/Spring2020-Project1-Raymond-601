@@ -8,7 +8,7 @@ The lib directory contains various files with function definitions (but only fun
 
   Rscript contains the function: f.emo
   
-  Input a dataframe contain the songs and it's lyrics, f.emo returns the emotion matrix for all the songs in the input dataframe.
+  Input a dataframe contains the songs and it's lyrics, f.emo returns the emotion matrix for all the songs in the input dataframe.
   
 + f.tidy_emo.R
 
@@ -20,7 +20,7 @@ The lib directory contains various files with function definitions (but only fun
 
   Rscript contains the function: f.word_freq
   
-  Input a dataframe contain the words of songs, f.word_freq can return a dataframe that contains the word and their frequency from a given genre.
+  Input a dataframe contains the words of songs, f.word_freq can return a dataframe that contains the word and their frequency from a given genre.
 
 ```
 lib/
