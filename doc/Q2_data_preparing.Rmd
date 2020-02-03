@@ -1,0 +1,41 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This Notebook is for generating data1_for_Q2.RData and data2_for_Q2.RData in the output file, I wrote is because this part can take a long time to processing if in the Project_1.Rmd file.
+
+```{r}
+library(tidyverse)
+library(tidyr)
+library(tidytext)
+library(sentimentr)
+
+load('../output/processed_lyrics_updated.RData') 
+source("../lib/f.emo.R")
+
+data <- dt_lyrics %>% 
+  filter(genre != "Other" & genre != "Not Available") %>% 
+  select(-c(lyrics, id))
+
+dt_dad <- data %>% 
+  filter(year >= 1985 & year <= 1995)
+dt_my <- data %>% 
+  filter(year > 2010 & year <= 2016)
+
+dt_dad_Q2 <- dt_dad %>% 
+  select(genre, stemmedwords) %>%
+  filter(genre == "Metal")
+dt_my_Q2 <- dt_my %>% 
+  select(genre, stemmedwords) %>% 
+  filter(genre == "Metal")
+
+emotion_dad <- f.emo(dt_dad_Q2)
+emotion_my <- f.emo(dt_my_Q2)
+
+save(emotion_dad, file="../output/data1_for_Q2.RData")
+save(emotion_my, file = "../output/data2_for_Q2.RData")
+
+```
+
+
