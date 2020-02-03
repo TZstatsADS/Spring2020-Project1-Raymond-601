@@ -1,4 +1,3 @@
-#This is the function that output the emotion matrix(as a dataframe) for all the song in the input data.frame
 f.emo <- function(dt){
   emotion_dad <- NULL
   for(i in 1:dim(dt)[1]){
