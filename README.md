@@ -16,11 +16,11 @@ Term: Fall 2019
 
 + Three questions will be answered in this report are:
 
-i.Is there a difference in word selection between Our Metal and Our Dad’s?
+    i.Is there a difference in word selection between Our Metal and Our Dad’s?
 
-ii.Is there a difference in lyrics emotion between Our Metal and Our Dad’s?
+    ii.Is there a difference in lyrics emotion between Our Metal and Our Dad’s?
 
-iii.How did the changes gradually happened?
+    iii.How did the changes gradually happened?
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
