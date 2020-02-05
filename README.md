@@ -3,6 +3,7 @@
 ## Project 1: A "data story" on the songs of our times
 
 <img src="figs/Metal.jpg" width="500">
+[Reference: GoogleImage](https://www.google.com/imgres?imgurl=https%3A%2F%2F2nx1mv3iav9j16tlyt2hv5ki-wpengine.netdna-ssl.com%2Fwp-content%2Fuploads%2FPage-Assets-2019%2FMetal_Guide_Header_1170x440-1170x440.jpg&imgrefurl=https%3A%2F%2Fguides.ticketmaster.co.uk%2Fconcerts-and-tours-guide%2Fmetal%2F&tbnid=-ceb716OEE8t6M&vet=10CCYQMyh2ahcKEwi4it2QobTnAhUAAAAAHQAAAAAQCQ..i&docid=cmzX07nmksePnM&w=1170&h=440&q=Metal%20music&ved=0CCYQMyh2ahcKEwi4it2QobTnAhUAAAAAHQAAAAAQCQ)
 
 ### [Project Description](doc/)
 This is the first and only *individual* (as opposed to *team*) this semester. 
